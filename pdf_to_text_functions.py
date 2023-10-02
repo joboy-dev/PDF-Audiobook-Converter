@@ -21,6 +21,8 @@ def convert_single_page(pdf):
             # initialize pdf file reader
             pdf_reader = PyPDF2.PdfReader(pdf)
             
+            print(f'\nNOTE: This pdf has only {len(pdf_reader.pages)} pages\n')
+            
             # get page number as input
             pageNo = int(input('Enter page number: \n'))
             
@@ -43,8 +45,6 @@ def convert_single_page(pdf):
             
             print('Getting file contents ... \n')
             time.sleep(1)
-            print('Displaying file contents ... \n')
-            time.sleep(2)
             
             return finalText
         
@@ -78,7 +78,5 @@ def convert_all_pages(pdf):
             
             print('Getting file contents ... \n')
             time.sleep(1)
-            print('Displaying file contents ... \n')
-            time.sleep(2)
             
             return finalText
