@@ -1,8 +1,8 @@
 import time
 
 import utils
-from pdf_to_text_functions import convert_single_page, convert_all_pages, is_file_allowed
-from text_to_speech import save_or_play_now
+from functions.pdf_to_text_functions import convert_single_page, convert_all_pages, is_file_allowed
+from functions.text_to_speech import save_or_play_now
 
 print(utils.logo)
 

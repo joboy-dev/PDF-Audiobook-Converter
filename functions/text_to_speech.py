@@ -39,8 +39,8 @@ def convert_text_to_speech(text):
             
             conversion = False
         except gTTSError as gtts_error:
-            print('An error has occured while getting ready to save your audio file.')
-            print(gtts_error)
+            print('An error has occured while getting ready to save your audio file. Please connect to the internet.\n')
+            # print(gtts_error)
             time.sleep(2)
         except Exception as e:
             print('An error occured.')
