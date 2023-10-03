@@ -9,5 +9,8 @@ Two notable features were implemented:
 NOTE: It is imperative that if a user is to save the audiobook file, the user must be connected to the Internet as this feature leverages the Google Text To Speech API.
 
 #### Download
-The packages project can be downloaded from here:
+The packaged project can be downloaded from here:
 
+
+#### Usage
+Download the 'main.exe' file and run it by double clicking on it.
